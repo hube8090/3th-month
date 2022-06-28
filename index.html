@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .wrapper{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   flex-direction: column;
+}
+.som label{
+   color: red;
+   font-weight: 500;
+   font-size: 20px;
+}
+.usd label {
+   color: red;
+   font-weight: 500;
+   font-size: 20px;
+}
+.som input{
+   border-radius: 10px;
+   width: 200px;
+   height: 20px;
+   color: green;
+   font-size: 18px;
+   font-weight: 400;
+}
+.usd input {
+   border-radius: 10px;
+   width: 200px;
+   height: 20px;
+   font-size: 18px;
+   font-weight: 400;
+}
+  .usd {
+    margin: 20px;
+  }
+  .tl label {
+    color: red;
+   font-weight: 500;
+   font-size: 20px;
+  }
+  .tl input {
+    border-radius: 10px;
+   width: 200px;
+   height: 20px;
+   font-size: 18px;
+   font-weight: 400;
+  }
+  </style>
+</head>
+<body>
+    <div>
+      <div class="wrapper">
+        <div class="som">
+           <label for="som">SOM</label>
+           <input type="number" id="som">
+        </div>
+        <div class="usd">
+           <label for="usd">USD</label>
+           <input type="number" id="usd">
+        </div>
+        <div class="tl">
+           <label for="tl">TL</label>
+           <input type="number" id="tl">
+        </div>
+     </div>
+    </div>
+    <script src="app.js"></script>
+</body>    
